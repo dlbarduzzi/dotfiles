@@ -34,6 +34,9 @@ vim.opt.cursorline = true
 -- Use terminal colors
 vim.termguicolors = true
 
+-- Vertical space between top and bottom lines
+vim.opt.scrolloff = 8
+
 -- Use dark mode by default for color schemes that support light and dark
 vim.opt.background = "dark"
 
