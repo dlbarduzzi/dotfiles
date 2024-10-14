@@ -13,4 +13,8 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("dylan.plugins")
+require("lazy").setup("dylan.plugins", {
+  change_detection = {
+    notify = false,
+  }
+})
