@@ -13,19 +13,46 @@ return {
         local map = function(keys, func, desc)
           vim.keymap.set("n", keys, func, { buffer = event.buf, desc = "LSP: " .. desc })
         end
-        map("gd", require("telescope.builtin").lsp_definitions, "Show LSP definitions")
-        map("gR", require("telescope.builtin").lsp_references, "Show LSP references")
-        map("gD", vim.lsp.buf.declaration, "Go to declaration")
-        map("gi", require("telescope.builtin").lsp_implementations, "Show LSP implementations")
-        map("gt", require("telescope.builtin").lsp_type_definitions, "Show LSP type definitions")
-        map("<leader>ca", vim.lsp.buf.code_action, "See available code actions")
-        map("<leader>rn", vim.lsp.buf.rename, "Smart rename")
-        map("<leader>d", vim.diagnostic.open_float, "Show line diagnostics")
-        map("[d", vim.diagnostic.goto_prev, "Go to previous diagnostic")
-        map("]d", vim.diagnostic.goto_next, "Go to next diagnostic")
-        map("<leader>ds", require("telescope.builtin").lsp_document_symbols, "Document symbols")
-        map("<leader>ws", require("telescope.builtin").lsp_dynamic_workspace_symbols, "Workspace symbols")
-        map("K", vim.lsp.buf.hover, "Hover Documentation")
+
+        local desc = "Show references"
+        map("gR", "<cmd>Telescope lsp_references<CR>", desc)
+
+        desc = "Go to declaration"
+        map("gD", vim.lsp.buf.declaration, desc)
+
+        desc = "Show definitions"
+        map("gd", "<cmd>Telescope lsp_definitions<CR>", desc)
+
+        desc = "Show implementations"
+        map("gi", "<cmd>Telescope lsp_implementations<CR>", desc)
+
+        desc = "Show type definitions"
+        map("gt", "<cmd>Telescope lsp_type_definitions<CR>", desc)
+
+        desc = "See available code actions"
+        map("<leader>ca", vim.lsp.buf.code_action, desc)
+
+        desc = "Smart rename"
+        map("<leader>rn", vim.lsp.buf.rename, desc)
+
+        desc = "Show buffer diagnostics"
+        map("<leader>D", "<cmd>Telescope diagnostics bufnr=0<CR>", desc)
+
+        desc = "Show line diagnostics"
+        map("<leader>d", vim.diagnostic.open_float, desc)
+
+        desc = "Go to previous diagnostic"
+        map("[d", vim.diagnostic.goto_prev, desc)
+
+        desc = "Go to next diagnostic"
+        map("]d", vim.diagnostic.goto_next, desc)
+
+        desc = "Show documentation for what is under cursor"
+        map("K", vim.lsp.buf.hover, desc)
+
+        desc = "Restart LSP"
+        map("<leader>rs", ":LspRestart<CR>", desc)
+
       end,
     })
 
