@@ -30,11 +30,13 @@ return {
         "gopls",
         "html",
         "jsonls",
+        "terraformls",
         "ts_ls",
         "lua_ls",
         "prismals",
         "pyright",
         "tailwindcss",
+        "yamlls",
       },
       automatic_installation = true,
     })
