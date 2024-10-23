@@ -20,6 +20,7 @@ require("lazy").setup(
   { import = "dylan.plugins.colortheme" },
   { import = "dylan.plugins.bufferline" },
   { import = "dylan.plugins.lualine" },
+  { import = "dylan.plugins.treesitter" },
 },
 -- Options
 {
