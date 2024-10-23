@@ -16,4 +16,12 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
     { import = "dylan.plugins.neotree" },
     { import = "dylan.plugins.colortheme" },
+}, {
+    checker = {
+        enabled = true,
+        notify = false,
+    },
+    change_detection = {
+        notify = false,
+    }
 })
