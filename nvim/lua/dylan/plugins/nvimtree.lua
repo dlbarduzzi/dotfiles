@@ -57,6 +57,9 @@ return {
 
     desc = "Refresh file explorer"
     vim.keymap.set("n", "<leader>er", "<cmd>NvimTreeRefresh<CR>", { desc = desc })
+    
+    desc = "Toggle between sidebar and file"
+    vim.keymap.set("n", "<leader>ew", "<C-w>w", { desc = desc })
 
   end,
 }

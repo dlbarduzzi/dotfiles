@@ -16,7 +16,8 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup(
 -- Plugins
 {
-  { import = "dylan.plugins.nvimtree" }
+  { import = "dylan.plugins.nvimtree" },
+  { import = "dylan.plugins.colortheme" },
 },
 -- Options
 {
