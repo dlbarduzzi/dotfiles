@@ -72,3 +72,52 @@ set undofile
 
 " Decrease update time.
 set updatetime=250
+
+"
+" Keymaps
+"
+
+" Set map leaders
+let mapleader = " "
+let maplocalleader = " "
+
+" Exit insert mode with jk
+inoremap jk <ESC>
+
+" Run command `:Explore`
+nnoremap <leader>ex :Explore<CR>
+
+" Clear search highlights
+nnoremap <leader>nh :nohl<CR>
+
+" Increment and decrement numbers
+nnoremap <leader>+ <C-a>
+nnoremap <leader>- <C-x>
+
+" Split window vertically
+nnoremap <leader>sv <C-w>v
+
+" Split window horizontally
+nnoremap <leader>sh <C-w>s
+
+" Make splitted windows same size
+nnoremap <leader>se <C-w>=
+
+" Close current split
+nnoremap <leader>sx <cmd>close<CR>
+
+" Open new tab
+nnoremap <leader>to <cmd>tabnew<CR>
+
+" Close current tab
+nnoremap <leader>tx <cmd>tabclose<CR>
+
+" Go to next tab
+nnoremap <leader>tn <cmd>tabn<CR>
+
+" Go to previous tab
+nnoremap <leader>tp <cmd>tabp<CR>
+
+" Open current buffer in new tab
+nnoremap <leader>tf <cmd>tabnew %<CR>
+
