@@ -1,3 +1,7 @@
+"
+" Options
+"
+
 " Show absolute line number.
 set number
 
