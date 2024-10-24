@@ -21,6 +21,7 @@ require("lazy").setup(
   { import = "dylan.plugins.bufferline" },
   { import = "dylan.plugins.lualine" },
   { import = "dylan.plugins.treesitter" },
+  { import = "dylan.plugins.telescope" },
 },
 -- Options
 {
