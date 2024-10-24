@@ -23,6 +23,7 @@ require("lazy").setup(
   { import = "dylan.plugins.treesitter" },
   { import = "dylan.plugins.telescope" },
   { import = "dylan.plugins.lsp" },
+  { import = "dylan.plugins.autocompletion" },
 },
 -- Options
 {
