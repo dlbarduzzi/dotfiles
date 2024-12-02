@@ -17,6 +17,7 @@ require("lazy").setup({
   { import = "dylan.plugins.colorscheme" },
   { import = "dylan.plugins.nvim-tree" },
   { import = "dylan.plugins.lualine" },
+  { import = "dylan.plugins.bufferline" },
 }, {
   checker = {
     enabled = true,
