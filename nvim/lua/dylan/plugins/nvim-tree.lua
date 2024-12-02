@@ -25,9 +25,9 @@ return {
             },
           },
         },
-        filters = {
-          custom = { "^.git$", ".DS_Store" },
-        },
+      },
+      filters = {
+        custom = { "^.git$", ".DS_Store" },
       },
       -- Disable window_picker for explorer to work well with window splits.
       actions = {
