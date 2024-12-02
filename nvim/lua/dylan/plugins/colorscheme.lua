@@ -7,7 +7,7 @@ return {
       theme = {
         colors = {
           -- Monokai Pro Machine.
-          bg = "#1d2528",
+          bg = "#161b1e",
         },
       },
     })

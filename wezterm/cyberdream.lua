@@ -1,7 +1,7 @@
 -- scottmckendry/cyberdream.nvim::extras/wezterm/cyberdream.lua
 -- loctvl842/monokai-pro.nvim::lua/monokai-pro/colorscheme/palette/machine.lua
 local colors = {
-  dark1 = "#1d2528", -- Monokai Pro Machine
+  dark1 = "#161b1e", -- Monokai Pro Machine
   dark2 = "#3c4048",
   dark3 = "#6b7678", -- Monokai Pro Machine
   white = "#ffffff",
