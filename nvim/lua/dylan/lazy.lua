@@ -18,6 +18,7 @@ require("lazy").setup({
   { import = "dylan.plugins.nvim-tree" },
   { import = "dylan.plugins.lualine" },
   { import = "dylan.plugins.bufferline" },
+  { import = "dylan.plugins.telescope" },
 }, {
   checker = {
     enabled = true,

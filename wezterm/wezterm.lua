@@ -28,15 +28,17 @@ config.keys = {
 	{ key = "}", mods = "CMD|SHIFT", action = wezterm.action.MoveTabRelative(1) },
 }
 
+local border_color = "#4338ca"
+
 config.window_frame = {
-  border_left_width = "0.5cell",
-  border_right_width = "0.5cell",
-  border_bottom_height = "0.2cell",
-  border_top_height = "0.2cell",
-  border_left_color = "#545f62",
-  border_right_color = "#545f62",
-  border_bottom_color = "#545f62",
-  border_top_color = "#545f62",
+  border_left_width = "0.4cell",
+  border_right_width = "0.4cell",
+  border_bottom_height = "0.15cell",
+  border_top_height = "0.15cell",
+  border_left_color = border_color,
+  border_right_color = border_color,
+  border_bottom_color = border_color,
+  border_top_color = border_color,
 }
 
 return config

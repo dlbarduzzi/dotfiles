@@ -8,6 +8,7 @@ return {
       background_clear = {
         "nvim-tree",
         "bufferline",
+        "telescope",
       },
       plugins = {
         bufferline = {
