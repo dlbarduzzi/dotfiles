@@ -9,13 +9,4 @@ return {
       mode = "tabs",
     },
   },
-  config = function()
-    require('bufferline').setup({
-        highlights = {
-            fill = {
-                bg = "#161b1e",
-            },
-          }
-        })
-  end
 }

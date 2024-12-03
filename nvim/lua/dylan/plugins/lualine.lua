@@ -9,13 +9,13 @@ return {
 
     local colors = {
       bg = "#1d2528",
-      white = "#ffffff",
-      red = "#ff6e5e",
-      green = "#5eff6c",
-      yellow = "#f1ff5e",
+      white = "#f2fffc",
+      red = "#ff6d7e",
+      green = "#a2e57b",
+      yellow = "#ffed72",
       blue = "#5ea1ff",
-      magenta = "#bd5eff",
-      inactive_bg = "#1e2124",
+      magenta = "#baa0f8",
+      inactive_bg = "#273136",
     }
 
     local lualine_theme = {
@@ -60,7 +60,7 @@ return {
           {
             lazy_status.updates,
             cond = lazy_status.has_updates,
-            color = { fg = "#ffbd5e" },
+            color = { fg = "#ffb270" },
           },
           { "encoding" },
           { "fileformat" },

@@ -18,7 +18,7 @@ config.window_decorations = "RESIZE"
 config.window_padding = {
 	left = "1cell",
 	right = "1cell",
-	top = "0.3cell",
+	top = "0.2cell",
 	bottom = "0cell",
 }
 
@@ -26,6 +26,17 @@ config.keys = {
 	{ key = "n", mods = "CMD|SHIFT", action = wezterm.action.ToggleFullScreen },
 	{ key = "{", mods = "CMD|SHIFT", action = wezterm.action.MoveTabRelative(-1) },
 	{ key = "}", mods = "CMD|SHIFT", action = wezterm.action.MoveTabRelative(1) },
+}
+
+config.window_frame = {
+  border_left_width = "0.5cell",
+  border_right_width = "0.5cell",
+  border_bottom_height = "0.2cell",
+  border_top_height = "0.2cell",
+  border_left_color = "#545f62",
+  border_right_color = "#545f62",
+  border_bottom_color = "#545f62",
+  border_top_color = "#545f62",
 }
 
 return config
