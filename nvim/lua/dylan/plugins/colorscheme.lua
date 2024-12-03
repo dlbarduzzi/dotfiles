@@ -9,6 +9,7 @@ return {
         "nvim-tree",
         "bufferline",
         "telescope",
+        "float_win",
       },
       plugins = {
         bufferline = {
