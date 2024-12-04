@@ -21,6 +21,8 @@ require("lazy").setup({
   { import = "dylan.plugins.telescope" },
   { import = "dylan.plugins.treesitter" },
   { import = "dylan.plugins.nvim-cmp" },
+  { import = "dylan.plugins.lsp" },
+  { import = "dylan.plugins.formatting" },
 }, {
   checker = {
     enabled = true,
