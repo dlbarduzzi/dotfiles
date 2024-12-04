@@ -23,8 +23,11 @@ require("lazy").setup({
   { import = "dylan.plugins.nvim-cmp" },
   { import = "dylan.plugins.lsp" },
   { import = "dylan.plugins.formatting" },
+  { import = "dylan.plugins.lint" },
   { import = "dylan.plugins.lazydev" },
   { import = "dylan.plugins.gitsigns" },
+  { import = "dylan.plugins.autopairs" },
+  { import = "dylan.plugins.dressing" },
 }, {
   checker = {
     enabled = true,
