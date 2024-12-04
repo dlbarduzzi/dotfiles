@@ -28,6 +28,8 @@ require("lazy").setup({
   { import = "dylan.plugins.gitsigns" },
   { import = "dylan.plugins.autopairs" },
   { import = "dylan.plugins.dressing" },
+  { import = "dylan.plugins.todo-comments" },
+  { import = "dylan.plugins.alpha" },
 }, {
   checker = {
     enabled = true,
