@@ -10,6 +10,7 @@ return {
         "bufferline",
         "telescope",
         "float_win",
+        "which-key",
       },
       plugins = {
         bufferline = {
@@ -23,7 +24,7 @@ return {
           dark1 = "#1d2528",
           background = "#161b1e",
         }
-      end
+      end,
     })
     vim.cmd([[colorscheme monokai-pro]])
   end,

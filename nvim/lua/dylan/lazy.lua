@@ -30,6 +30,12 @@ require("lazy").setup({
   { import = "dylan.plugins.dressing" },
   { import = "dylan.plugins.todo-comments" },
   { import = "dylan.plugins.alpha" },
+  { import = "dylan.plugins.auto-session" },
+  { import = "dylan.plugins.trouble" },
+  { import = "dylan.plugins.mini" },
+  { import = "dylan.plugins.which-key" },
+  { import = "dylan.plugins.vim-maximizer" },
+  { import = "dylan.plugins.tmux-navigator" },
 }, {
   checker = {
     enabled = true,
