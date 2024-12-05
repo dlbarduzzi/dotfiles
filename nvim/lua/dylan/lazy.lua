@@ -36,6 +36,7 @@ require("lazy").setup({
   { import = "dylan.plugins.which-key" },
   { import = "dylan.plugins.vim-maximizer" },
   { import = "dylan.plugins.tmux-navigator" },
+  { import = "dylan.plugins.tailwindcss" },
 }, {
   checker = {
     enabled = true,
