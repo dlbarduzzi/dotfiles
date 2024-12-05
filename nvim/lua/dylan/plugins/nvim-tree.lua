@@ -27,6 +27,7 @@ return {
         },
       },
       filters = {
+        dotfiles = false,
         custom = { "^.git$", ".DS_Store" },
       },
       -- Disable window_picker for explorer to work well with window splits.
@@ -56,5 +57,5 @@ return {
 
     desc = "Toggle between sidebar and file"
     vim.keymap.set("n", "<leader>ew", "<C-w>w", { desc = desc })
-  end
+  end,
 }
