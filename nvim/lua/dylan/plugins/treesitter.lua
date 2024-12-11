@@ -55,5 +55,6 @@ return {
     -- Register additional file extensions.
     vim.filetype.add({ extension = { tf = "terraform" } })
     vim.filetype.add({ extension = { tfvars = "terraform" } })
+    vim.filetype.add({ extension = { mdx = "markdown" } })
   end,
 }
