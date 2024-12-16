@@ -20,9 +20,9 @@ return {
       },
       overridePalette = function(filter)
         return {
-          dark2 = "#273136",
-          dark1 = "#1d2528",
-          background = "#161b1e",
+          dark2 = "#1d2528",
+          --    dark1 = "#1d2528",
+          --    background = "#161b1e",
         }
       end,
     })

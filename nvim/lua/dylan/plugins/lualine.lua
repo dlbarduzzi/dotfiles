@@ -15,7 +15,8 @@ return {
       yellow = "#ffed72",
       blue = "#5ea1ff",
       magenta = "#baa0f8",
-      inactive_bg = "#273136",
+      --inactive_bg = "#273136",
+      inactive_bg = "#1d2528",
     }
 
     local lualine_theme = {
@@ -68,5 +69,5 @@ return {
         },
       },
     })
-  end
+  end,
 }
