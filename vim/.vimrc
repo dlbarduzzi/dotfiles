@@ -10,6 +10,8 @@ set scrolloff=5
 " Use spaces to insert a tab.
 set expandtab
 
+filetype plugin indent on
+
 " Number of spaces to add for a tab.
 set tabstop=2
 
@@ -31,7 +33,7 @@ set nohlsearch
 " Ignore case (lower and upper) when searching.
 set ignorecase
 
-" Ignore 'ignorecase' setting if search contains a mix of lower and uppper case letters. 
+" Ignore 'ignorecase' setting if search contains a mix of lower and upper case letters. 
 set smartcase
 
 " Prevent line breaking.

@@ -1,91 +1,104 @@
 {
-    "workbench.startupEditor": "none",
-    "workbench.editor.enablePreview": false,
-    "workbench.tree.enableStickyScroll": false,
-    "workbench.colorTheme": "GitHub Dark Dimmed",
-    "files.insertFinalNewline": true,
-    "editor.fontFamily": "'CaskaydiaCove Nerd Font', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 1.7,
-    "editor.wordWrap": "on",
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+  "files.insertFinalNewline": true,
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 1.7,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 4,
+  "editor.minimap.autohide": true,
+  "editor.linkedEditing": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "json.schemas": [],
+  "security.workspace.trust.untrustedFiles": "open",
+  "prettier.arrowParens": "avoid",
+  "prettier.proseWrap": "always",
+  "prettier.requireConfig": true,
+  "prettier.semi": false,
+  "prettier.printWidth": 80,
+  "prettier.useEditorConfig": false,
+  "go.formatTool": "gofumpt",
+  "[go]": {
     "editor.tabSize": 4,
-    "editor.minimap.autohide": true,
-    "editor.linkedEditing": true,
-    "editor.stickyScroll.enabled": false,
-    "editor.stickyScroll.scrollWithEditor": false,
-    "json.schemas": [],
-    "security.workspace.trust.untrustedFiles": "open",
-    "prettier.arrowParens": "avoid",
-    "prettier.proseWrap": "always",
-    "prettier.requireConfig": true,
-    "prettier.semi": false,
-    "prettier.printWidth": 80,
-    "prettier.useEditorConfig": false,
-    "go.formatTool": "gofumpt",
-    "[go]": {
-        "editor.tabSize": 4,
-        "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file",
-        "editor.defaultFormatter": "golang.go",
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "always"
-        }
-    },
-    "[go.mod]": {
-        "editor.tabSize": 4,
-        "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file",
-        "editor.defaultFormatter": "golang.go",
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "always"
-        }
-    },
-    "[python]": {
-        "editor.tabSize": 4,
-        "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file",
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "always"
-        }
-    },
-    "[javascript]": {
-        "editor.tabSize": 2,
-        "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file",
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "always"
-        }
-    },
-    "[javascriptreact]": {
-        "editor.tabSize": 2,
-        "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file",
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "always"
-        }
-    },
-    "[typescript]": {
-        "editor.tabSize": 2,
-        "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file",
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "always"
-        }
-    },
-    "[typescriptreact]": {
-        "editor.tabSize": 2,
-        "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file",
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "always"
-        }
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "golang.go",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
     }
+  },
+  "[go.mod]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "golang.go",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "colorize.languages": ["lua"],
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons"
+  // "workbench.colorCustomizations": {
+  //   "editor.background": "#161b1e",
+  //   "editorGutter.background": "#161b1e",
+  //   "statusBar.background": "#161b1e",
+  //   "tab.activeBackground": "#161b1e",
+  //   "tab.inactiveBackground": "#161b1e",
+  //   "titleBar.activeBackground": "#161b1e",
+  //   "titleBar.inactiveBackground": "#161b1e",
+  //   "terminal.background": "#161b1e",
+  //   "editorGroupHeader.tabsBackground": "#161b1e",
+  // },
 }
