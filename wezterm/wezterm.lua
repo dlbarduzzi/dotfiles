@@ -10,7 +10,7 @@ config.enable_tab_bar = false
 config.colors = require("cyberdream")
 
 config.font = wezterm.font("CaskaydiaCove Nerd Font Mono", { weight = "Regular" })
-config.font_size = 16
+config.font_size = 17
 config.line_height = 1.4
 
 config.window_decorations = "RESIZE"
