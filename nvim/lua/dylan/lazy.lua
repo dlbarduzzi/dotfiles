@@ -24,6 +24,7 @@ require("lazy").setup({
   { import = "dylan.plugins.lint" },
   { import = "dylan.plugins.oil" },
   { import = "dylan.plugins.dressing" },
+  { import = "dylan.plugins.which-key" },
 }, {
   checker = {
     notify = false,
