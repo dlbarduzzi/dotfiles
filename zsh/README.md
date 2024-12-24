@@ -17,10 +17,10 @@ alias vim2="/usr/bin/vim"
 alias vim="/opt/homebrew/bin/nvim"
 ```
 
-## Copy file to user's home path
+## Create a symlink
 
 ```sh
-cp .zshrc ~/.zshrc
+ln -s $(pwd)/zsh/.zshrc ~/.zshrc
 ```
 
 ## Install dependencies
