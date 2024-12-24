@@ -24,7 +24,7 @@ return {
       callback = function(event)
         local map = function(keys, func, desc, mode)
           mode = mode or "n"
-          ---@diagnostic disable-next-line: missing-fields 
+          ---@diagnostic disable-next-line: missing-fields
           vim.keymap.set(mode, keys, func, { buffer = event.buf, desc = "LSP: " .. desc })
         end
 
@@ -131,7 +131,7 @@ return {
     })
 
     require("mason-tool-installer").setup({
-      ensure_installed = ensure_installed
+      ensure_installed = ensure_installed,
     })
 
     local capabilities = require("blink.cmp").get_lsp_capabilities()
@@ -142,12 +142,10 @@ return {
       handlers = {
         function(server_name)
           local server = servers[server_name] or {}
-          server.capabilities = vim.tbl_deep_extend(
-          "force", {}, capabilities, server.capabilities or {}
-          )
+          server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})
           require("lspconfig")[server_name].setup(server)
         end,
       },
     })
-  end
+  end,
 }
