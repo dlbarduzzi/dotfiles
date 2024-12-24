@@ -1,5 +1,5 @@
 [aws]
-symbol = "  "
+disabled = true
 
 [buf]
 symbol = " "
@@ -22,7 +22,7 @@ truncate_to_repo = false
 truncation_length = 0
 
 [docker_context]
-symbol = " "
+disabled = true
 
 [elixir]
 symbol = " "
@@ -136,7 +136,7 @@ Void = " "
 Windows = "󰍲 "
 
 [package]
-symbol = "󰏗 "
+disabled = true
 
 [perl]
 symbol = " "
