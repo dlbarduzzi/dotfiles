@@ -17,6 +17,7 @@ require("lazy").setup({
   { import = "dylan.plugins.colorscheme" },
   { import = "dylan.plugins.mini" },
   { import = "dylan.plugins.telescope" },
+  { import = "dylan.plugins.treesitter" },
   { import = "dylan.plugins.completion" },
   { import = "dylan.plugins.lsp" },
   { import = "dylan.plugins.formatting" },
