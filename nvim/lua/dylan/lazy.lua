@@ -15,6 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   { import = "dylan.plugins.colorscheme" },
+  { import = "dylan.plugins.mini" },
 }, {
   checker = {
     notify = false,
