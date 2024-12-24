@@ -24,7 +24,7 @@ mv ~/.config/kitty ~/.config/kitty.bak_$(date +%Y%m%d%H%M%S)
 ln -s $(pwd)/kitty ~/.config/kitty
 ```
 
-## Install Dependencies
+## Install dependencies
 
 ```sh
 brew install font-caskaydia-cove-nerd-font

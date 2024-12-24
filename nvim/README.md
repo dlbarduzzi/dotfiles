@@ -25,7 +25,7 @@ rm -rf ~/.cache/nvim
 ln -s $(pwd)/nvim ~/.config/nvim
 ```
 
-## Install Dependencies
+## Install dependencies
 
 ```sh
 brew install fd
