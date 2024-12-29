@@ -22,6 +22,7 @@ require("lazy").setup({
   { import = "dylan.plugins.lsp" },
   { import = "dylan.plugins.formatting" },
   { import = "dylan.plugins.lint" },
+  { import = "dylan.plugins.autopairs" },
   { import = "dylan.plugins.oil" },
   { import = "dylan.plugins.dressing" },
   { import = "dylan.plugins.which-key" },
