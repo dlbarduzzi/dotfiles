@@ -1,0 +1,41 @@
+# -------------------------------------------------------------------
+# Theme
+# -------------------------------------------------------------------
+theme = catppuccin-mocha
+
+# -------------------------------------------------------------------
+# Font
+# -------------------------------------------------------------------
+font-size = 20
+font-family = "CaskaydiaCove Nerd Font Mono"
+
+font-style = "Regular"
+font-style-bold = "Regular"
+font-style-italic = "Bold Italic"
+font-style-bold-italic = "Bold Italic"
+
+adjust-cell-height = 40%
+
+# -------------------------------------------------------------------
+# Colors
+# -------------------------------------------------------------------
+background = "#020617"
+
+# -------------------------------------------------------------------
+# Window
+# -------------------------------------------------------------------
+window-width = 120 
+window-height = 27
+
+window-padding-x = 6
+window-padding-y = 6
+window-padding-balance = true
+
+window-decoration = false
+
+# -------------------------------------------------------------------
+# Others
+# -------------------------------------------------------------------
+copy-on-select = clipboard
+quit-after-last-window-closed = true
+
