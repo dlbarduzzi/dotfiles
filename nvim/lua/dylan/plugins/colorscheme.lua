@@ -1,11 +1,28 @@
+--return {
+--  "folke/tokyonight.nvim",
+--  lazy = false,
+--  priority = 1000,
+--  config = function()
+--    require("tokyonight").setup({
+--      style = "moon",
+--    })
+--    vim.cmd.colorscheme("tokyonight")
+--  end
+--}
 return {
-  "folke/tokyonight.nvim",
+  "catppuccin/nvim",
+  name = "catppuccin",
   lazy = false,
   priority = 1000,
   config = function()
-    require("tokyonight").setup({
-      style = "moon",
+    require("catppuccin").setup({
+      flavour = "mocha",
+      no_bold = true,
+      no_italic = true,
+      integrations = {
+        blink_cmp = true,
+      },
     })
-    vim.cmd.colorscheme("tokyonight")
-  end
+    vim.cmd.colorscheme("catppuccin")
+  end,
 }
