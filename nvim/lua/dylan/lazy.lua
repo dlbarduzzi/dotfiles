@@ -25,6 +25,7 @@ require("lazy").setup({
   { import = "dylan.plugins.todo-comments" },
   { import = "dylan.plugins.lazydev" },
   { import = "dylan.plugins.alpha" },
+  { import = "dylan.plugins.tmux-navigator" },
 }, {
   checker = {
     enabled = true,
