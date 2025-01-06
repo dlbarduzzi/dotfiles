@@ -15,8 +15,10 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   { import = "dylan.plugins.colorscheme" },
+  { import = "dylan.plugins.which-key" },
   { import = "dylan.plugins.lualine" },
   { import = "dylan.plugins.nvim-tree" },
+  { import = "dylan.plugins.telescope" },
 }, {
   checker = {
     enabled = true,
