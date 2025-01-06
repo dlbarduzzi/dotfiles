@@ -19,7 +19,10 @@ require("lazy").setup({
   { import = "dylan.plugins.lualine" },
   { import = "dylan.plugins.nvim-tree" },
   { import = "dylan.plugins.telescope" },
-  { import = "dylan.plugins.bufferline" },
+  { import = "dylan.plugins.autopairs" },
+  { import = "dylan.plugins.dressing" },
+  { import = "dylan.plugins.gitsigns" },
+  { import = "dylan.plugins.todo-comments" },
 }, {
   checker = {
     enabled = true,
