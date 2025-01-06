@@ -23,6 +23,8 @@ require("lazy").setup({
   { import = "dylan.plugins.dressing" },
   { import = "dylan.plugins.gitsigns" },
   { import = "dylan.plugins.todo-comments" },
+  { import = "dylan.plugins.lazydev" },
+  { import = "dylan.plugins.alpha" },
 }, {
   checker = {
     enabled = true,
