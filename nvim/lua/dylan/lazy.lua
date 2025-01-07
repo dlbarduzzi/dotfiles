@@ -29,6 +29,7 @@ require("lazy").setup({
   { import = "dylan.plugins.treesitter" },
   { import = "dylan.plugins.completion" },
   { import = "dylan.plugins.lsp" },
+  { import = "dylan.plugins.formatting" },
 }, {
   checker = {
     enabled = true,
