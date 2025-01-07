@@ -27,6 +27,7 @@ require("lazy").setup({
   { import = "dylan.plugins.alpha" },
   { import = "dylan.plugins.tmux-navigator" },
   { import = "dylan.plugins.treesitter" },
+  { import = "dylan.plugins.completion" },
 }, {
   checker = {
     enabled = true,
