@@ -30,6 +30,7 @@ require("lazy").setup({
   { import = "dylan.plugins.completion" },
   { import = "dylan.plugins.lsp" },
   { import = "dylan.plugins.formatting" },
+  { import = "dylan.plugins.lint" },
 }, {
   checker = {
     enabled = true,
