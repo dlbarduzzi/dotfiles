@@ -18,7 +18,7 @@ uv tool install ruff
 
 ```sh
 mkdir -p ~/.config/ruff
-cp ruff/ruff.toml ~/.config/ruff
+cp ruff/ruff.toml ~/.config/ruff/
 ```
 
 ## CLI
