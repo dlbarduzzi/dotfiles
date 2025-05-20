@@ -39,3 +39,21 @@ ruff check --fix .
 # Format code using, for example, black formatter.
 ruff format .
 ```
+
+## Project Sample
+
+You can configure ruff inside a project with a `pyproject.toml` file.
+
+```toml
+[project]
+name = "app-name"
+version = "0.1.0"
+description = "App description"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.ruff]
+lint.extend-select = ["ALL"]
+lint.ignore = ["T201"]
+```
